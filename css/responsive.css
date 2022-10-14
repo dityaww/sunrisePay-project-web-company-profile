@@ -1,0 +1,206 @@
+@media  screen and (max-width : 750px) {
+    /* -------- header -------- */
+    nav > button{
+        position: static;
+        visibility: visible;
+    }
+
+    nav > div > a{
+        display: none;
+    }
+    /* ------ header ---------- */
+
+       /* -------- home start --------= */
+       #home {
+        overflow: hidden;
+        height: 800px;
+    }
+
+    #home > div {
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    #home p {
+        width: 100%;
+    }
+    /* ------- home end ------ */
+
+    #tentang {
+        margin-top: 50px;
+    }
+    
+    #tentang .pembungkus {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    /* ------- about end ----- */
+      /* ------ visi misi start---- */
+      #visi > div{
+        flex-direction: column;
+    }
+
+    #visi > div img{
+        width: 100%;
+    }
+
+    #visi > div .pembungkus{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #visi .icons{
+        width: 40px;
+    }
+
+    #visi .pembungkus p {
+        text-align: justify;
+    }
+    /* ------ visi misi end ----- */
+    /* ------- pay service start ----------- */
+    #pay-service .pembungkus{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+            
+    }
+    /* ------- pay service end -------------- */
+    /* -------- kontak start ---------------- */
+
+    #kontak > div > div{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #kontak .name-maps {
+        width: 100%;
+    }
+
+    #kontak iframe {
+        width: 100%;
+        text-align: center;
+    }
+
+    #kontak .order-now {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* -------- kontak end ---------------- */
+
+}
+
+/* /////////////////////////////////// */
+
+@media screen and (max-width : 512px) {
+    
+    /* -------- home start --------= */
+    #home {
+        overflow: hidden;
+        height: 800px;
+    }
+
+    #home > div {
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    #home p {
+        width: 100%;
+    }
+    /* ------- home end ------ */
+
+    /* -------- about start ---- */
+
+    #tentang {
+        margin-top: 50px;
+    }
+    
+    #tentang .pembungkus {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    /* ------- about end ----- */
+
+    /* ------ visi misi start---- */
+    #visi > div{
+        flex-direction: column;
+    }
+
+    #visi > div img{
+        width: 100%;
+    }
+
+    #visi > div .pembungkus{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #visi .icons{
+        width: 40px;
+    }
+
+    #visi .pembungkus p {
+        text-align: justify;
+        font-size: 14px;
+    }
+    /* ------ visi misi end ----- */
+    /* ---------- mitra start ------------ */
+    #mitra{
+    padding: 50px 0 50px 0;
+    background-color: #F6F9FE;
+    }
+
+    #mitra h3{
+        margin-bottom: 40px;
+    }
+    #mitra .pembungkus img{
+        height: 25px;
+
+    }
+
+    #mitra .pembungkus img{
+        margin: 0 20px;
+    }
+/* ---------- mitra end -------------- */
+    
+    /* ------- pay service start ----------- */
+    #pay-service .pembungkus{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        
+    }
+    /* ------- pay service end -------------- */
+
+    /* -------- kontak start ---------------- */
+
+    #kontak > div > div{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #kontak .name-maps {
+        width: 100%;
+    }
+    
+
+    #kontak iframe {
+        width: 100%;
+        text-align: center;
+    }
+
+    #kontak .order-now {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* -------- kontak end ---------------- */
+
+}
