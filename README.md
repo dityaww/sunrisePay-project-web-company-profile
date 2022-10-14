@@ -1,1 +1,2 @@
-# sunrisePay-project-web-company-profile
+# Sunrise Pay Project
+## Web Company Profile
