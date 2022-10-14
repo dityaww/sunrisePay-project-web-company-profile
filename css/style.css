@@ -1,1 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #232323;
+}
+
+/* ----- color start ------ */
+.hitam {
+    color: #232323;
+}
+
+.grey{
+    color: #707070;
+}
+
+.biru{
+    color: #227AD4;
+}
+/* ----- color end -------- */
+
+
+#pre-header{
+    height: 40px;
+    background: linear-gradient(90deg, #28A6FD 47.39%, #227AD4 61.21%);
+    color: #fff;
+}
+
+#pre-header a{
+    padding: 2px 40px;
+    border-radius: 20px;
+}
+
+#pre-header a:hover{
+    background-color: #2875c2;
+}
+
+
+
+/* ------ header -------- */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.bayangan{
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ---- navigasi ----- */
+
+nav{
+    display: flex;
+}
+nav > img{
+    width: 50px;
+    height: 50px;
+}
+
+nav a {
+    padding: 4px 8px;
+    text-decoration: none;
+    margin-left: 20px;
+    
+} 
+
+nav a:hover{
+    color: #227AD4;
+    border-bottom: 1px solid #227AD4;
+}
+
+nav > button{
+    position: absolute;
+    visibility: hidden;
+}
+
+button{
+    background-color: #fff;
+    border: 0;
+}
+
+/* -------------- hidden nav --------- */
+
+nav .mini-navbar{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+}
+
+nav .terlihat{
+    visibility:visible;
+}
+
+nav .mini-navbar li{
+    list-style: none;
+    line-height: 50px;
+}
+
+nav .mini-navbar li:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+/* ------------- hidden nav end --------- */
+
+/* ------------- main start ------------- */
+
+main{
+    font-family: 'Poppins',sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+
+main > div{
+    width: 100%;
+    height: 800px;
+}
+/* ---------- main end --------------- */
+
+/* ---------- home start -------------- */
+#home{
+    height: 500px;
+    padding-top: 40px;
+}
+
+#home > div{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home h1{
+    font-size: 60px;
+    color: #227AD4;
+}
+
+#home p{
+    width: 60%;
+}
+#home img{
+    width: 350px;
+}
+/* ---------- home end ---------- */
+
+/* ----------- tentang kami ------ */
+
+#tentang {
+    margin: 200px 0 100px 0;
+}
+
+#tentang .pembungkus{
+    display: flex;
+    margin-top: 50px;
+}
+
+#tentang .pembungkus > div{
+    width: 90%;
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+
+    justify-content: space-around;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+#tentang img{
+    margin-bottom: 20px;
+}
+
+/* ---------- tentang kami end ---- */
+
+/* --------- visi misi start ---------- */
+#visi .icons{
+    width: 80px;
+}
+
+#visi .visi-misi{
+    gap: 20px;
+}
+
+/* --------- visi misi end ------------*/
+
+/* ---------- mitra start ------------ */
+#mitra{
+    padding: 50px 0 50px 0;
+    background-color: #F6F9FE;
+}
+
+#mitra h3{
+    margin-bottom: 80px;
+}
+#mitra .pembungkus img{
+    height: 40px;
+
+}
+/* ---------- mitra end -------------- */
+
+/* ---------- pay service start ----------- */
+
+#pay-service{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#pay-service .judul{
+    margin-bottom: 100px;
+}
+
+#pay-service .judul > p{
+    width: 80%;
+    margin: auto;
+}
+
+#pay-service .pembungkus div {
+    width: 230px;
+    height: 190px;
+    background: linear-gradient(90deg, #1AC9FB -6.44%, #227AD4 100%);
+    padding: 16px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#pay-service .pembungkus div > img {
+    margin-bottom: 16px;
+}
+
+#pay-service .pembungkus div > p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#pay-service .pembungkus div > hr{
+    color: #fff;
+    width: 75%;
+}
+
+/* ---------- pay service end ---------- */
+
+/* ----------- kontak start------------- */
+#kontak{
+    background-color: #F6F9FE;
+    padding: 50px;
+}
+
+#kontak h5{
+    margin: 50px;
+}
+#kontak .name-maps{
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.name-maps p{
+    width: 80%;
+    margin: auto;
+}
+
+#kontak .name-maps > img {
+    width: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#kontak .order-now{
+    width: 50%;
+}
+
+.order-now button{
+    margin-top: 50px;
+    width: 300px;
+}
+/* ----------- kontak end --------------*/
+
+/* ----------- footer ----------------- */
+footer{
+    background-color: #227AD4;
+    color: white;
+}
+
+footer > span{
+    font-weight: bold;
+    color: white;
+}
+
+
+/* /////////// produk page ////////// */
+
+/* ------ banner start ------ */
+.banner > .container {
+    background-color: #F6F9FE;
+}
+
+.banner h5{
+    color: #227AD4;
+}
+
+/* ------ pulsa start ------ */
+#pulsa h6{
+    background-color: #227AD4;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#pulsa img{
+    height: 60px;
+}
+
+/* ------ pulsa start ------ */
+#ewallet{
+    margin-top: 200px;
+}
+
+#ewallet h6{
+    background-color: greenyellow;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#ewallet img{
+    height: 60px;
+}
+
+/* ------ token start ------ */
+#token{
+    margin-top: 200px;
+}
+
+#token h6{
+    background-color: #227AD4;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#token img{
+    height: 60px;
+}
+
+
+/* ------ token start ------ */
+#paket-data{
+    margin-top: 200px;
+}
+
+#paket-data h6{
+    background-color: #bb26a7;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#paket-data img{
+    height: 60px;
+}
 
